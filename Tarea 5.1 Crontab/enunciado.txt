@@ -1,0 +1,22 @@
+Tarea 5.1
+Crontab
+Como hemos visto el Crontab es un programador de tareas que lo que permite es definir un
+instante de tiempo en el que queremos que se realice una determinada tarea. En esta tarea
+vamos a definir los patrones para satisfacer los siguientes instantes de ejecución:
+Tareas
+NOTA: No hay que implementar el script de copia de seguridad, con poner un script
+llamado backup.sh que ejecute “echo test de backup con crontab”.
+1- Programación de una copia de seguridad todos los años el 10 de junio a las 8:30.
+2- Programación de una copia de seguridad cada hora entre las 8:00 y las 18:00 y de
+lunes a viernes.
+3- Programación de una copia de seguridad alas10:00y a las 20:00 todos los días de la
+semana.
+4- Programación de una copia de seguridad cada 15 minutos entre las 8:00 y las 18:00,
+de lunes a viernes.
+5- Programación de una copia de seguridad cada día a las 15:00 y junto a 3 scripts más
+llamados backupcopy.sh, records.sh y update.sh (vacíos), indicarlo en una sola línea.
+6- Programación de una copia de seguridad cada 1 de enero a la 01:00.La entrega de esta tarea se realizará vía Moodle y mediante un documento en pdf
+especificando los comandos utilizados en cada enunciado, capturas de pantalla y con el
+siguiente formato de nombre:
+Actividad11_Nombre_Apellido1_Apellido2.pdfEjemplo:
+Actividad11_Hadriel_Fernando_Quintero_Ceballos.pdf
