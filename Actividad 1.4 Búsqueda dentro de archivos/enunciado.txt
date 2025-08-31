@@ -1,0 +1,40 @@
+ACTIVIDAD 5
+Búsqueda dentro de archivos
+IMPORTANTE: Antes de empezar la práctica, copia el contenido del archivo
+Historia.txt y lo pegas en un nuevo archivo txt, asegurándote que se guarda en
+código UTF-8.
+En Linux no solo es importante buscar archivos sino también dentro de los mismos, es
+decir, su contenido, ya que es una tarea que compete al administrador de tareas.
+Para ello utilizaremos el comando grep.
+En esta actividad vamos a intentar solucionar los siguientes enunciados haciendo uso del
+comando grep o egrep:
+1- Muestra todas las líneas que contengan la cadena “España”.
+2- Muestra todas las líneas que contengan primero la cadena “España” y luego la
+cadena “guerra”.
+3- Muestra las líneas que contengan primero la cadena “guerra” y luego la cadena “España”.
+4- Muestra todas las líneas que contengan las cadenas “Francia” o “Italia” (egrep).
+5- Muestra las líneas que contengan ambas cadenas “España” y “guerra” en cualquier
+orden (puedes usar tuberías).
+6- Muestra las líneas que contengan la cadena “guerra” pero no “España”
+7- Muestra las líneas que contengan palabras de cinco letras terminadas en “ía” (recuerda
+que “\b” representa el separador entre palabras).
+8- Muestra líneas que contengan números de cuatro cifras (puedes crear intervalos o rangos
+de valores por medio de [0-9], o también puedes usar la clase de caracteres [:digit:], que
+representa cualquier dígito, es decir, equivale a [0-9]).
+9- Muestra líneas que empiecen con “a”.
+10- Muestra líneas que terminen con “s”
+11- Muestra líneas que comiencen con la cadena “la”.
+12- Muestra líneas que terminen con la cadena “as”
+13- Muestra líneas que empiecen y terminen con “s”.
+14- Muestra líneas que empiecen con “a” y terminen con “s”.
+Todas estas búsquedas se realizarán sobre el archivo “Historia.txt” y con la ayuda de los
+siguientes documentos (todo ellos adjuntos en la actividad):
+Actividad 5 - Comando grep 1
+Actividad 5 - Comando grep 2Además, para identificar patrones haremos uso de la combinación de metacaracteres. En
+el siguiente enlace encontraremos la información necesaria. Estas son las expresiones
+regulares más comunes:La entrega de esta tarea se realizará vía moodle y mediante un documento en pdf
+especificando los comandos utilizados en cada enunciado y con el siguiente formato de
+nombre:
+Actividad5_Nombre_Apellido1_Apellido2.pdf
+Ejemplo:
+Actividad5_Hadriel_Fernando_Quintero_Ceballos.pdf
